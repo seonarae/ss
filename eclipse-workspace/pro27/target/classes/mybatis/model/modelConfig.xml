@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.myspring.pro27.member.vo.MemberVO" alias="memberVO" />
+		<!-- VO객체 클래스명이 알리어스명이 SQL안에서 사용이 된다 -->
+	</typeAliases>
+</configuration>
+
+<!--마이바티스 스프링 연동 vo클래스 설정  -->
